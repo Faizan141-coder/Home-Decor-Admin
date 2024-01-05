@@ -28,8 +28,8 @@ export default async function RootLayout({
             defaultTheme="system" 
             enableSystem
           >
-            <ToastProvider />
             <ModalProvider />
+            <ToastProvider />
             {children}
           </ThemeProvider>
         </body>
